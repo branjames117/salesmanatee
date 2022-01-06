@@ -1,27 +1,40 @@
-# SalesManatee
+# Salesmanatee
 
-E-commerce backend that leverages a MySQL and the Sequelize ORM to create a products database, created for Week 13 of the Vanderbilt Full-stack Coding Boot Camp.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## User Story
+## Description
 
-AS A manager at an internet retail company
-I WANT a back end for my e-commerce website that uses the latest technologies
-SO THAT my company can compete with other e-commerce companies
+E-commerce backend that leverages MySQL and the Sequelize ORM to create a products database, with API routes providing CRUD functionality.
 
-## Acceptance Criteria
+## Table of Contents
 
-GIVEN a functional Express.js API
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
-WHEN I open API GET routes in Insomnia for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-THEN I am able to successfully create, update, and delete data in my database
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Questions](#questions)
 
-## Routes
+## Installation
 
-- GET /api/tags
+Download the source files with `git clone <url>`, then install dependences with `npm i`.
+
+## Usage
+
+Enter your own MySQL credentials in a .env file on the root directory. To create the table, run the command `source db/schema.sql` in the MySQL terminal at root level. To seed the table with sample data, run the command `npm run seed`.
+
+## License
+
+[The MIT License](https://mit-license.org/)
+
+Copyright © 2022 branjames117
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Questions
+
+This repository was created and is maintained by [branjames117](https://github.com/branjames117).
+
+With any questions email the repository owner at [branjames117@gmail.com](mailto:branjames117@gmail.com).
