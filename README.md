@@ -21,6 +21,8 @@ Download the source files with `git clone <url>`, then install dependences with 
 
 Enter your own MySQL credentials in a .env file on the root directory. To create the table, run the command `source db/schema.sql` in the MySQL terminal at root level. To seed the table with sample data, run the command `npm run seed`.
 
+For a video demonstration of this application, visit [here](https://watch.screencastify.com/v/9MQPt3fJg8vwVihUwInI).
+
 ## License
 
 [The MIT License](https://mit-license.org/)
